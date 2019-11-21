@@ -1,0 +1,24 @@
+{
+    "name": "joalcapa/gauler",
+    "description": "the api gauler",
+    "keywords": ["API", "Gauler"],
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "José Cáceres",
+            "email": "josecaceres.oreul@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+        "Gauler\\": ""
+    }
+     },
+    "require": {
+        "php": ">=7.0.0",
+        "symfony/console": "^4.2",
+        "joalcapa/elementary": "^0.0.7",
+        "joalcapa/fundamentary": "^1.2.17"
+    }
+}
